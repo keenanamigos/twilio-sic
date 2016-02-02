@@ -1,0 +1,50 @@
+#SI Chicago Web Dev App
+*Use Twilio API for this 
+	-Read through documentation 
+		-Go through their tutorial or demo app first if there's one available
+
+-Styled HTML that has text prompting the user to enter a phone number
+	-Want to have validatation on the phone number of some shape and form
+-Text field to accept a numeric string 
+-Button to post the string as an input variable (the number to be texted)
+
+**Want to turn the second input field into a text area...going to integrate the API first and then see how that might be done**
+*Ideally would like to move the send button to the bottom left of the input/text field*
+	-Need the 'Send' and 'Submit' buttons to go somewhere/do something
+-------------------------------------------------------------------------------------------------------------------------------
+*Don't need the country code for the receiving phone number
+	-Hyphens and periods work with the number already and combo of parentheses & hyphens [Pretty much everything seems to work if # is valid]
+-When data is typed in the input field AND 'Submit' button is pressed
+	-Validate to make sure field is not blank AND phone number is valid [WANT]
+	-Push this to the 'To' input [NEED]
+-When data is typed into the message field AND Send button is pressed	
+	-Validate to make sure the field is not blank [WANT]
+	-Push this to message input + send the message to the phone number [NEED]
+	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+-Build single page app that has a form for entering a phone number (including the country code) + form area to include text message
+-Deploy on Heroku 
