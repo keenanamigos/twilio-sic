@@ -12,8 +12,8 @@ $phoneNumber = $_POST['p_num'];
 $client = new Services_Twilio($sid, $token);
 $message = $client->account->messages->sendMessage(
   '+12243024554', // From a valid Twilio number
-  "$phoneNumber", // Text this number --Need to figure this out
-  "$textMessage" // Message --Need to figure this out
+  "$phoneNumber", // Text this number 
+  "$textMessage" // Message to be sent
 );
 
 print "{$message->sid}<br />'$textMessage' has been successfully sent to $phoneNumber\n";
