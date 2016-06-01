@@ -1,0 +1,29 @@
+html, body {
+	height: 100%;
+}
+
+.container {
+	background-image:url("images/app-background-photo.png");
+	width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-position: center;
+	padding-top: 150px;
+}
+
+.center {
+	text-align: center;
+}
+
+.white {
+	color: white;
+}
+
+p {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}
+
+#send {
+	margin-top: -15px;
+}

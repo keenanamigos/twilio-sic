@@ -13,37 +13,7 @@
 
 	<!-- Optional theme -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
-	<style>
-		html, body {
-			height: 100%;
-		}
-	
-		.container {
-			background-image:url("app-background-photo.png");
-			width: 100%;
-			height: 100%;
-			background-size: cover;
-			background-position: center;
-			padding-top: 150px;
-		}
-		
-		.center {
-			text-align: center;
-		}
-		
-		.white {
-			color: white;
-		}
-		
-		p {
-			padding-top: 15px;
-			padding-bottom: 15px;
-		}
-		
-		#send {
-			margin-top: -15px;
-		}
-	</style>
+	<link rel="stylesheet" href="app.css">
 	
 </head>
 

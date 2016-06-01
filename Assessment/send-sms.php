@@ -1,5 +1,5 @@
 <?php
-error_reporting(0);
+//error_reporting(0);
 
 // This line loads the library
 require('./twilio-php-master/Services/Twilio.php');
